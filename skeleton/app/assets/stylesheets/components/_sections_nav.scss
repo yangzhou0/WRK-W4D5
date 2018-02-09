@@ -1,0 +1,27 @@
+.section_links {
+  display:flex;
+  align-items: center;
+  border-bottom: 1px solid lightgrey;
+  position: relative;
+  padding: 10px;
+  justify-content: center;
+
+  
+}
+
+.section_links a{
+  margin: 0 10px;
+  flex-direction: center;
+  font-family: sans-serif;
+  text-decoration: none;
+
+}
+
+.section_links a:hover{
+  background-color: $lightest-gray;
+}
+
+#all {
+  text-transform: uppercase;
+  text-decoration-line: underline;
+}

@@ -1,0 +1,73 @@
+.main-nav {
+  display: flex;
+  justify-content: space-between; 
+  padding: 20px auto;
+  border-bottom: solid 1px $light-gray;
+}
+
+.left-nav > ul,
+.right-nav > ul {
+  display:flex;
+}
+
+.left-nav > ul > li {
+  margin: auto 10px;
+  font-family: $sans-serif;
+  font-size: 10px;
+  text-transform: uppercase;
+  padding: 5px;
+  font-weight: bold;
+}
+
+.right-nav > ul > li {
+  font-family: $sans-serif;
+  font-size: 10px;
+  text-transform: uppercase;
+  
+}
+
+.right-nav > ul > li:last-of-type {
+  
+}
+
+.left-nav > ul > li:hover,
+.right-nav > ul > li:last-of-type:hover {
+   background-color: $lightest-gray;
+}
+
+.left-nav span {
+  margin:10px
+}
+
+.right-nav i:hover {
+  background-color: $lightest-gray;
+}
+
+.right-nav i {
+  font-size: 20px;
+  padding: 5px;
+}
+
+#cog {
+  margin: 1px;
+  padding: 4.5px 7px;
+  border-radius: 3px;
+}
+
+#cog:hover {
+  background-color: lightgrey;
+}
+
+.blue-buttons {
+  background-color: $light-blue;
+  color: white;
+  font-family: $sans-serif;
+  font-weight: bold;
+  border-radius: 3px;
+  padding: 5px;
+  margin: 1px;
+}
+
+.blue-buttons:hover {
+  background-color: $dark-blue;
+}
